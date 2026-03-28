@@ -5,6 +5,8 @@
 !.editorconfig
 !.gitattributes
 !.gitignore
+!LICENSE
+!README.md
 
 !**/
 !**/*.c
