@@ -1,2 +1,0 @@
-- 28TECH: http://oj.28tech.com.vn/problems
-- CSES: https://cses.fi/problemset

@@ -1,1 +1,12 @@
-*.exe
+*
+
+!.clang-format
+!.clang-tidy
+!.editorconfig
+!.gitattributes
+!.gitignore
+
+!**/
+!**/*.c
+!**/*.cpp
+!**/*.md

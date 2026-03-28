@@ -4,7 +4,7 @@
 
 using namespace std;
 
-istream& operator>>(istream& inp_stream, __int128& val) {
+istream &operator>>(istream &inp_stream, __int128 &val) {
   string str;
   inp_stream >> str;
 
@@ -30,7 +30,7 @@ istream& operator>>(istream& inp_stream, __int128& val) {
   return inp_stream;
 }
 
-ostream& operator<<(ostream& out_stream, const __int128& val) {
+ostream &operator<<(ostream &out_stream, const __int128 &val) {
   if (val == 0) {
     return out_stream << "0";
   }
@@ -57,8 +57,10 @@ ostream& operator<<(ostream& out_stream, const __int128& val) {
 }
 
 bool IsFibonacci(__int128 val) {
-  if (val < 0) return false;
-  if (val == 0 || val == 1) return true;
+  if (val < 0)
+    return false;
+  if (val == 0 || val == 1)
+    return true;
 
   __int128 first_fi = 0;
   __int128 second_fi = 1;
@@ -80,7 +82,7 @@ int main() {
   cin >> num;
 
   vector<__int128> vec(num);
-  for (__int128& ele : vec) {
+  for (__int128 &ele : vec) {
     cin >> ele;
   }
 
